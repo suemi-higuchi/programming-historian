@@ -370,7 +370,7 @@ A função `arrange()` nos permite ordenar as colunas de novas formas. Atualment
 
 ### Summarise
 
-A última função do dplyr que veremos é a `summarise()`, usada geralmente para criar um *data frame* contendo dados estatísticos resumidos que podemos plotar.  Vamos utilizar a função `summarise()` para calcular a média da expectativa de vida dos países, considerando todo o conjunto de dados_gapminder.
+A última função do dplyr que veremos é a `summarise()`, usada geralmente para criar uma tabela contendo dados estatísticos resumidos que podemos plotar.  Vamos utilizar a função `summarise()` para calcular a média da expectativa de vida dos países, considerando todo o conjunto de dados_gapminder.
 
     dados_gapminder %>%
       summarise(mean(expectativa_de_vida))
