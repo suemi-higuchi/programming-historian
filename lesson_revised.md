@@ -42,7 +42,7 @@ Neste tutorial focaremos no pacote [dplyr](https://cran.r-project.org/web/packag
 ["Gramática de Gráficos"](http://www.springer.com/us/book/9780387245447)<span id="a1">[[1]](#f1)</span> para fornecer uma forma fácil de visualizar nossos dados.  
 * [**tibble**](http://tibble.tidyverse.org/) -- Este pacote nos fornece uma releitura dos tradicionais *data frames*, mais fáceis de serem trabalhados e visualizados.
 
-Você deve instalar o **tidyverse**, se ainda não o fez, e carregá-lo antes de começarmos. Além disso, certifique-se de que possui instaladas a
+Você deve instalar o "tidyverse", se ainda não o fez, e carregá-lo antes de começarmos. Além disso, certifique-se de que possui instaladas a
 [versão mais recente do R](https://cran.rstudio.com/) e a [versão mais recente do RStudio](https://www.rstudio.com/products/rstudio/download/) compatíveis com o seu sistema operacional.
 
 Copie o código a seguir em seu RStudio. Para executá-lo, você precisa selecionar as linhas e pressionar Ctrl+Enter (Command+Enter no Mac OS):
