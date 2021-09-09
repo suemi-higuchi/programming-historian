@@ -55,7 +55,7 @@ Copie o código a seguir em seu RStudio. Para executá-lo, você precisa selecio
 
 
 ## Um exemplo do dplyr em ação
-Vejamos um exemplo de como o dplyr pode auxiliar historiadores.  Vamos utilizar o pacote **dados**<span id="a1">[[2]](#f2)</span> e importar alguns indicadores socioeconômicos de países entre 1952 e 2007. 
+Vejamos um exemplo de como o dplyr pode auxiliar historiadores.  Vamos utilizar o pacote **dados**<span id="a2">[[2]](#f2)</span> e importar alguns indicadores socioeconômicos de países entre 1952 e 2007. 
 
 O pacote **remotes** permite a instalação de pacotes R a partir de repositórios remotos, incluindo o GitHub, como é o caso de **dados**. 
 
@@ -389,6 +389,8 @@ Novamente, fazendo uma pequena mudança em nosso código, podemos ver também o 
 
 Este tutorial deve encaminhar seus conhecimentos para pensar sobre como organizar e manipular dados usando R. Posteriormente, você provavelmente vai querer visualizar esses dados de alguma forma, usando gráficos, como fizemos em partes desta lição. Recomendamos que comece a estudar o [ggplot2](http://www.ggplot2.org), pacote com uma coleção de ferramentas que funcionam bem em conjunto com o dplyr. Além disso, você deve buscar conhecer as outras funções do pacote **dplyr** que não vimos aqui, para aprimorar suas habilidades de manipulação de dados. Por enquanto, esta lição deve proporcionar um bom ponto de partida, cobrindo muitos dos principais problemas que você irá encontrar.
 
+
+### Notas
 
 1. <span id="f1"></span> A lição original faz referência ao livro “[The Grammar of Graphics](https://www.springer.com/us/book/9780387245447)” (2005) de Wilkinson].  [↩](#a1)
 
