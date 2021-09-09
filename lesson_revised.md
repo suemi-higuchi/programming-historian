@@ -1,7 +1,5 @@
 ---
-title: Manipulação e controle de dados em R
----
-title: Manipulação e transformação de dados usando R
+title: Manipulação e controle de dados no R
 author:
 - Nabeel Siddiqui
 date: 2017-08-01
@@ -26,7 +24,6 @@ layout: lesson
 review-ticket: 60
 ---
 
-{% include toc.html %}
 
 ## Requisitos
 Nesta lição assumimos que você possui algum conhecimento da linguagem R. Se ainda não completou a lição ["R Basics with Tabular
