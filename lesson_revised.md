@@ -25,7 +25,7 @@ De acordo com [Wickham](http://hadley.nz/), os dados estão *tidy* ou bem-organi
 2.  Cada variável está em uma coluna
 3.  Cada valor possui sua própria célula.
 
-Estar atentos a estes critérios nos permite reconhecer quando nossos dados estão adequados ou não. Também nos fornece um esquema padrão e um conjunto de soluções para lidar com alguns dos problemas mais comuns encontrados em *datasets* "mal-arranjados", como por exemplo:
+Estar atento a estes critérios nos permite reconhecer quando nossos dados estão adequados ou não. Também nos fornece um esquema padrão e um conjunto de soluções para lidar com alguns dos problemas mais comuns encontrados em *datasets* "mal-arranjados", como por exemplo:
 
 1.  Nomes de colunas como valores ao invés de nomes de variáveis
 2.  Múltiplas variáveis contidas em uma única coluna
