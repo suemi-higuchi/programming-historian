@@ -6,6 +6,8 @@ Parabéns ao Ian que fez um ótimo trabalho! A lição é bastante longa e a ada
 
 * É preciso rever as URLs das imagens.
 
+* Eu havia feito a revisão diretamente no arquivo markdown do Ian. Aqui está ele, caso facilite na hora de entender os pontos que coloquei, principalmente as notas extras de rodapé: https://github.com/suemi-higuchi/programming-historian/blob/main/lesson_revised_1.md
+
 #### Na seção "Premissas":
 * Linha 20: substituir "Premissas" por "Requisitos";
 * Linha 23: substituir "Esta lição considera premissas básicas acerca do seu" por "Nesta lição assumimos que você possui algum"; "Se você" por "Se ainda"; "eu sugiro que complete-a primeiro" por "sugerimos que o faça primeiro"; "recomendo dar uma olhada nos" por "recomendamos os";
@@ -63,11 +65,10 @@ Parabéns ao Ian que fez um ótimo trabalho! A lição é bastante longa e a ada
 * Linha 329: "Na verdade" por "Em vez disso"; "base de dados" por "*data frame*";
 * Linha 334: "tibble" por "tabela";
 * Linha 354: "base de dados" por "conjunto de dados";
-* Linha 376: Substituir por "A última função do dplyr que veremos é a `summarise()`, usada geralmente para criar um *data frame* contendo dados estatísticos resumidos que podemos plotar.";
+* Linha 376: Substituir por "A última função do dplyr que veremos é a `summarise()`, usada geralmente para criar uma tabela contendo dados estatísticos resumidos que podemos plotar.";
 * Linha 376: "base" por "conjunto de dados";
 
 #### Seção Conclusão
 * Linha 416: "No futuro" por "Além disso".
 
 
-Eu havia feito a revisão diretamente no arquivo markdown do Ian. Aqui está ele, caso facilite na hora de entender os pontos que coloquei, principalmente as notas extras de rodapé: 
