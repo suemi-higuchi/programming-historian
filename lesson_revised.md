@@ -55,9 +55,9 @@ Copie o código a seguir em seu RStudio. Para executá-lo, você precisa selecio
 
 
 ## Um exemplo do dplyr em ação
-Vejamos um exemplo de como o dplyr pode auxiliar historiadores.  Vamos utilizar o pacote **dados**<span id="a2">[[2]](#f2)</span> e importar alguns indicadores socioeconômicos de países entre 1952 e 2007. 
+Vejamos um exemplo de como o dplyr pode auxiliar historiadores.  Vamos utilizar o pacote "dados"<span id="a2">[[2]](#f2)</span> e importar alguns indicadores socioeconômicos de países entre 1952 e 2007. 
 
-O pacote **remotes** permite a instalação de pacotes R a partir de repositórios remotos, incluindo o GitHub, como é o caso de **dados**. 
+O pacote "remotes" permite a instalação de pacotes R a partir de repositórios remotos, incluindo o GitHub, como é o caso de "dados". 
 
     # Instala e carrega as bibliotecas "remotes" e "dados"
 
@@ -67,7 +67,7 @@ O pacote **remotes** permite a instalação de pacotes R a partir de repositóri
     remotes::install_github("cienciadedatos/dados")
     library(dados)
 
-Em seguida, para termos acesso ao *dataset* "dados_gapminder" que se encontra no pacote **dados**, basta executar o seguinte código:
+Em seguida, para termos acesso ao *dataset* "dados_gapminder" que se encontra no pacote "dados", basta executar o seguinte código:
 
     # Cria o objeto dados_socioeconomicos_paises e atribui a ele os elementos de dados_gapminder 
     
@@ -75,7 +75,7 @@ Em seguida, para termos acesso ao *dataset* "dados_gapminder" que se encontra no
 
 Os dados [Gapminder](https://www.gapminder.org/) contêm a progressão de países ao longo do tempo, observando as estatísticas de alguns índices. Após importar o *dataset*, você notará que ele possui seis variáveis: país, continente, ano, expectativa de vida, população e PIB per capita. Os dados já estão em um formato *tidy*, possibilitando uma infinidade de opções para exploração futura.
 
-Neste exemplo, vamos visualizar o crescimento populacional de Brasil e Argentina ao longo dos anos. Para isso utilizaremos o pacote **dplyr** a fim de filtrar os dados que contenham apenas informação dos países de nosso interesse. Em seguida, empregaremos o **ggplot2** para visualizar tais dados. Este exercício é apenas uma breve demonstração do que é possível fazer com o dplyr, portanto, não se preocupe se você não entender o código por enquanto.
+Neste exemplo, vamos visualizar o crescimento populacional de Brasil e Argentina ao longo dos anos. Para isso utilizaremos o pacote dplyr a fim de filtrar os dados que contenham apenas informação dos países de nosso interesse. Em seguida, empregaremos o ggplot2 para visualizar tais dados. Este exercício é apenas uma breve demonstração do que é possível fazer com o dplyr, portanto, não se preocupe se você não entender o código por enquanto.
 
     # Filtra os países desejados (Brasil e Argentina)
 
@@ -189,7 +189,7 @@ Agora que adquirimos uma compreensão do operador *pipe*, estamos prontos para c
     ## 10 Afeganistão Ásia        1997                41.8  22227415           635.
     ## # … with 1,694 more rows
 
-Como você pode observar, este *dataset* contém o nome do país, seu continente e o ano de registro, além dos indicadores de expectativa de vida, total da população e PIB per capita dos determinados anos. Conforme mencionamos acima, antes de analisar os dados é importante verificar se estes estão bem ordenados no formato *tidy*. Relembrando os três critérios discutidos, podemos dizer que sim, o *dataset* encontra-se organizado e pronto para ser trabalhado com o pacote **dplyr**.  
+Como você pode observar, este *dataset* contém o nome do país, seu continente e o ano de registro, além dos indicadores de expectativa de vida, total da população e PIB per capita dos determinados anos. Conforme mencionamos acima, antes de analisar os dados é importante verificar se estes estão bem ordenados no formato *tidy*. Relembrando os três critérios discutidos, podemos dizer que sim, o *dataset* encontra-se organizado e pronto para ser trabalhado com o pacote dplyr.  
 
 ## O que é dplyr?
 [Dplyr](https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html) também é parte do tidyverse, fornecendo funções para manipulação e tranformação dos dados. Porque estamos mantendo nossos dados bem organizados, precisaremos apenas de um pequeno conjunto de ferramentas para explorá-los. Em comparação com o pacote básico do R, usando o dplyr nosso código fica geralmente mais rápido, e há a garantia de que os dados resultantes (*output*) estarão bem ordenados uma vez que os dados de entrada (*input*) também estarão. Talvez o mais importante seja que o dplyr torna nosso código mais fácil de ser lido e utiliza "verbos" que são, na maioria das vezes, intuitivos. Cada função do dplyr corresponde a um desses verbos, sendo cinco principais: filtrar (`filter`), selecionar (`select`), ordenar (`arrange`), modificar (`mutate`) e sumarizar (`summarise`). Vamos observar individualmente como cada uma dessas funções funciona na prática.
@@ -281,7 +281,7 @@ A função `filter()` faz o mesmo que a função select, mas ao invés de escolh
     ## # … with 132 more rows
 
 ### Mutate
-O comando `mutate` permite adicionar uma coluna ao seu *dataset*. No momento, temos país e continente em duas colunas separadas. Podemos utilizar o comando `paste` para combinar as duas informações e especificar um separador. Vamos colocá-las em uma única coluna chamada "localizacao".
+A função `mutate()` permite adicionar uma coluna ao seu *dataset*. No momento, temos país e continente em duas colunas separadas. Podemos utilizar a função `paste()` para combinar as duas informações e especificar um separador. Vamos colocá-las em uma única coluna chamada "localizacao".
 
     dados_gapminder %>%
       mutate(localizacao = paste(pais, continente, sep = ", "))
@@ -361,7 +361,7 @@ A última função do dplyr que veremos é a `summarise()`, usada geralmente par
 
 ## Juntando tudo
 
-Agora, após termos visto os cinco principais verbos do **dplyr**, podemos criar rapidamente uma visualização dos nossos dados. Vamos criar um gráfico de barras mostrando o número de países com expectativa de vida maior que 50 anos, em 2007.
+Agora, após termos visto os cinco principais verbos do dplyr, podemos criar rapidamente uma visualização dos nossos dados. Vamos criar um gráfico de barras mostrando o número de países com expectativa de vida maior que 50 anos, em 2007.
 
     expectativa_vida_2007 <- dados_gapminder %>%
       filter(ano == 2007) %>%
@@ -387,7 +387,7 @@ Novamente, fazendo uma pequena mudança em nosso código, podemos ver também o 
 
 ## Conclusão
 
-Este tutorial deve encaminhar seus conhecimentos para pensar sobre como organizar e manipular dados usando R. Posteriormente, você provavelmente vai querer visualizar esses dados de alguma forma, usando gráficos, como fizemos em partes desta lição. Recomendamos que comece a estudar o [ggplot2](http://www.ggplot2.org), pacote com uma coleção de ferramentas que funcionam bem em conjunto com o dplyr. Além disso, você deve buscar conhecer as outras funções do pacote **dplyr** que não vimos aqui, para aprimorar suas habilidades de manipulação de dados. Por enquanto, esta lição deve proporcionar um bom ponto de partida, cobrindo muitos dos principais problemas que você irá encontrar.
+Este tutorial deve encaminhar seus conhecimentos para pensar sobre como organizar e manipular dados usando R. Posteriormente, você provavelmente vai querer visualizar esses dados de alguma forma, usando gráficos, como fizemos em partes desta lição. Recomendamos que comece a estudar o [ggplot2](http://www.ggplot2.org), pacote com uma coleção de ferramentas que funcionam bem em conjunto com o dplyr. Além disso, você deve buscar conhecer as outras funções do pacote dplyr que não vimos aqui, para aprimorar suas habilidades de manipulação de dados. Por enquanto, esta lição deve proporcionar um bom ponto de partida, cobrindo muitos dos principais problemas que você irá encontrar.
 
 
 ### Notas
