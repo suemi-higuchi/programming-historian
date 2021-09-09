@@ -1,8 +1,8 @@
 Parabéns ao Ian que fez um ótimo trabalho! A lição é bastante longa e a adaptação dos exemplos com uso de dados do Gapminder ficou excelente. Testei todo o código e abaixo estão minhas sugestões.  
 
-* Sobre o título: difícil traduzir wrangling, mas ao invés de "transformação" que tal "organização" ou "controle"? Algo como "Manipulação e controle de dados no R"?  
+* Sobre o título: difícil traduzir wrangling, mas ao invés de "transformação" que tal "organização" ou "controle"? Ficaria algo como "Manipulação e controle de dados no R"?  
 
-* Não há ainda a tradução do resumo. Minha sugestão: "Esta lição explora como os acadêmicos podem tornar seus dados ordenados, entender os pacotes R para manipular dados e conduzir análises básicas de dados."
+* Não há ainda a tradução do resumo. Minha sugestão: "Esta lição explora como os investigadores podem tornar seus dados ordenados, entender os pacotes R para manipular dados e conduzir análises básicas de dados."
 
 * É preciso rever as URLs das imagens.
 
@@ -70,5 +70,3 @@ Parabéns ao Ian que fez um ótimo trabalho! A lição é bastante longa e a ada
 
 #### Seção Conclusão
 * Linha 416: "No futuro" por "Além disso".
-
-
