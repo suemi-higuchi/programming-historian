@@ -39,16 +39,8 @@ Neste tutorial focaremos no pacote [dplyr](https://cran.r-project.org/web/packag
 
 * [**magittr**](http://magrittr.tidyverse.org) -- Este pacote nos garante acesso ao operador *pipe* `%>%`, que torna nosso código mais legível.  
 * [**ggplot2**](http://ggplot2.tidyverse.org/) -- Este pacote utiliza a
-["Gramática de Gráficos"](http://www.springer.com/us/book/9780387245447)[1] para fornecer uma forma fácil de visualizar nossos dados.  
+["Gramática de Gráficos"](http://www.springer.com/us/book/9780387245447)<span id="a1">[[1]](#f1)</span> para fornecer uma forma fácil de visualizar nossos dados.  
 * [**tibble**](http://tibble.tidyverse.org/) -- Este pacote nos fornece uma releitura dos tradicionais *data frames*, mais fáceis de serem trabalhados e visualizados.
-
-Here is a paragraph with an footnote <span id="a1">[[1]](#f1)</span>.
-
-Footnotes
-=========
-
-1. <span id="f1"></span> This is a footnote. [$\hookleftarrow$](#a1)
-
 
 Você deve instalar o **tidyverse**, se ainda não o fez, e carregá-lo antes de começarmos. Além disso, certifique-se de que possui instaladas a
 [versão mais recente do R](https://cran.rstudio.com/) e a [versão mais recente do RStudio](https://www.rstudio.com/products/rstudio/download/) compatíveis com o seu sistema operacional.
@@ -63,7 +55,7 @@ Copie o código a seguir em seu RStudio. Para executá-lo, você precisa selecio
 
 
 ## Um exemplo do dplyr em ação
-Vejamos um exemplo de como o dplyr pode auxiliar historiadores.  Vamos utilizar o pacote **dados**[2] e importar alguns indicadores socioeconômicos de países entre 1952 e 2007. 
+Vejamos um exemplo de como o dplyr pode auxiliar historiadores.  Vamos utilizar o pacote **dados**<span id="a1">[[2]](#f2)</span> e importar alguns indicadores socioeconômicos de países entre 1952 e 2007. 
 
 O pacote **remotes** permite a instalação de pacotes R a partir de repositórios remotos, incluindo o GitHub, como é o caso de **dados**. 
 
@@ -398,5 +390,6 @@ Novamente, fazendo uma pequena mudança em nosso código, podemos ver também o 
 Este tutorial deve encaminhar seus conhecimentos para pensar sobre como organizar e manipular dados usando R. Posteriormente, você provavelmente vai querer visualizar esses dados de alguma forma, usando gráficos, como fizemos em partes desta lição. Recomendamos que comece a estudar o [ggplot2](http://www.ggplot2.org), pacote com uma coleção de ferramentas que funcionam bem em conjunto com o dplyr. Além disso, você deve buscar conhecer as outras funções do pacote **dplyr** que não vimos aqui, para aprimorar suas habilidades de manipulação de dados. Por enquanto, esta lição deve proporcionar um bom ponto de partida, cobrindo muitos dos principais problemas que você irá encontrar.
 
 
-[1]: A lição original faz referência ao livro “[The Grammar of Graphics](https://www.springer.com/us/book/9780387245447)” (2005) de Wilkinson]
-[2]:O pacote "dados" disponibiliza a tradução de conjuntos de dados originalmente em inglês encontrados em outros pacotes de R. Está disponível em https://github.com/cienciadedatos/dados
+1. <span id="f1"></span> A lição original faz referência ao livro “[The Grammar of Graphics](https://www.springer.com/us/book/9780387245447)” (2005) de Wilkinson].  [↩](#a1)
+
+2. <span id="f2"></span> O pacote "dados" disponibiliza a tradução de conjuntos de dados originalmente em inglês encontrados em outros pacotes de R. Está disponível em https://github.com/cienciadedatos/dados  [↩](#a2)
