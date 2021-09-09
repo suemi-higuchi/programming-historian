@@ -6,7 +6,7 @@ Parabéns ao Ian que fez um ótimo trabalho! A lição é bastante longa e a ada
 
 * É preciso rever as URLs das imagens.
 
-* Eu havia feito a revisão diretamente no arquivo markdown do Ian. Aqui está ele, caso facilite na hora de entender os pontos que coloquei, principalmente as notas extras de rodapé: https://github.com/suemi-higuchi/programming-historian/blob/main/lesson_revised_1.md
+* Eu havia feito a edição da revisão diretamente no arquivo markdown do Ian. Aqui está ele, caso facilite na hora de entender os pontos que coloquei, principalmente as notas extras de rodapé: https://github.com/suemi-higuchi/programming-historian/blob/main/lesson_revised_1.md
 
 #### Na seção "Premissas":
 * Linha 20: substituir "Premissas" por "Requisitos";
