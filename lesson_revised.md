@@ -1,6 +1,30 @@
 ---
 title: Manipulação e controle de dados em R
 ---
+title: Manipulação e transformação de dados usando R
+author:
+- Nabeel Siddiqui
+date: 2017-08-01
+editor:
+- Ian Milligan
+reviewers:
+- Lauren Tilton
+- Ryan Deschamps
+translator:
+- Ian Araujo
+translation-editor:
+- Jimmy Medeiros
+translation reviewer:
+- Suemi Higuchi
+- Danielle Sanches
+difficulty: 2
+collection: lessons
+activity: transforming
+topics: [data-manipulation, data-management, distant-reading]
+abstract: "This tutorial explores how scholars can organize 'tidy' data, understand R packages to manipulate data, and conduct basic data analysis."
+layout: lesson
+review-ticket: 60
+---
 
 {% include toc.html %}
 
