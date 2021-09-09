@@ -42,6 +42,14 @@ Neste tutorial focaremos no pacote [dplyr](https://cran.r-project.org/web/packag
 ["Gramática de Gráficos"](http://www.springer.com/us/book/9780387245447)[1] para fornecer uma forma fácil de visualizar nossos dados.  
 * [**tibble**](http://tibble.tidyverse.org/) -- Este pacote nos fornece uma releitura dos tradicionais *data frames*, mais fáceis de serem trabalhados e visualizados.
 
+Here is a paragraph with an footnote <span id="a1">[[1]](#f1)</span>.
+
+Footnotes
+=========
+
+1. <span id="f1"></span> This is a footnote. [$\hookleftarrow$](#a1)
+
+
 Você deve instalar o **tidyverse**, se ainda não o fez, e carregá-lo antes de começarmos. Além disso, certifique-se de que possui instaladas a
 [versão mais recente do R](https://cran.rstudio.com/) e a [versão mais recente do RStudio](https://www.rstudio.com/products/rstudio/download/) compatíveis com o seu sistema operacional.
 
